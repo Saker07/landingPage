@@ -1,0 +1,211 @@
+
+* {
+    margin:0px;
+}
+/*-----------------------------------------------------
+part above is only during development for clarity
+*/
+ul {
+    list-style: none;
+}
+
+button{
+    background-color: #3882F6;
+    padding:5px 20px;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.top-container .top .description h1{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.top-container .top .description p, button, .header li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo img{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.bot-title h3 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937
+}
+.card img{
+    box-sizing:border-box;
+    height:250px;
+    width: 250px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 25px;
+    border-width: 5px;
+}
+.card-text{
+    font-size: 20px;
+    color: #212b3a;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.form-title{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+.form-desc{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-container, .footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30vh;
+}
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    gap: 20px;
+}
+/*cont above*/
+
+.top-container .top{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 60vh;
+    padding: 5vh 0;
+    align-items: center;
+}
+
+.top-container .top .description{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    justify-content: center;
+}
+
+.top-image{
+    flex: 1 1 300px;
+    display: flex;
+}
+
+.top-image img{
+    width: 100%;
+}
+
+
+.top button:hover{
+    background-color: #1c6ff1;
+}
+
+/*center*/
+.bot-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bot-container .bot-title{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.card-cont{
+    display: flex;
+    min-height:25vh;
+    min-width: auto;
+}
+.card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+/*QUOTE*/
+.quote{
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:25vh;
+    justify-content: center;
+    padding: 15vh 0;
+    margin-top: 100px;
+}
+.quote p{
+    width: 50vw;
+}
+.quote h6{
+    width: 50vw;
+    text-align: right;
+}
+
+/*SIGN UP*/
+
+.signup-prompt{
+    display: flex;
+    height: 10vh;
+    margin: 5vh 0;
+    box-sizing: border-box;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    padding: 50px 120px;
+    gap: 100px;
+}
+
+.signup-prompt button{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+
+
+/*footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+}
